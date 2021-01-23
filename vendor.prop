@@ -1,4 +1,5 @@
 # Audio
+ro.audio.monitorRotation=true
 ro.hardware.audio.primary=amazon_wrapper_v28
 
 # USB
