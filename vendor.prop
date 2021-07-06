@@ -8,3 +8,8 @@ ro.vendor.usb.pid.mtp=0x0581
 ro.vendor.usb.pid.mtp.adb=0x0582
 ro.vendor.usb.pid.ptp=0x0583
 ro.vendor.usb.pid.ptp.adb=0x0584
+
+# Volume steps
+ro.config.alarm_vol_steps=25
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_steps=25
