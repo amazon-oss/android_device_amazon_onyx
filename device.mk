@@ -56,6 +56,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayOnyx \
+    SettingsProviderOverlayOnyx \
     WifiResOverlayOnyx
 
 # Power
