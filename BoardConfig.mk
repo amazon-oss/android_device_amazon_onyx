@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/amazon/onyx
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
+
 # Boot Image
 BOARD_BOOTIMG_HEADER_VERSION := 1
 
