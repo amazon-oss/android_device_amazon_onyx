@@ -18,6 +18,13 @@ function blob_fixup() {
         vendor/lib/libbessound_hd_mtk_vendor.so|vendor/lib/libcvsd_mtk.so|vendor/lib/libmsbc_mtk.so|vendor/lib/libmtklimiter_vendor.so|vendor/lib/libmtkshifter_vendor.so)
             "${PATCHELF}" --add-needed "liblog.so" "${2}"
             ;;
+        vendor/lib/libcam.feature_utils.so|vendor/lib/libcam.iopipe.so|vendor/lib/libfeature.face.so|vendor/lib/libimageio_plat_drv.so|vendor/lib/libmtkcam.featurepipe.capture.so|vendor/lib/libmtkcam.featurepipe.streaming.so|vendor/lib/libmtkcam.featurepipe.vsdof_util.so|vendor/lib/libmtkcam_3rdparty.mtk.so|vendor/lib/libmtkcam_3rdparty.so|vendor/lib/libmtkcam_hwnode.so)
+            "${PATCHELF}" --replace-needed "libdpframework.so" "libdpframework_compat.so" "${2}"
+            ;;
+        vendor/lib/libcam3a_imem.so|vendor/lib/libcamdrv.so|vendor/lib/libmtkcam_imgbuf.so)
+            "${PATCHELF}" --add-needed "libion_mtk_compat.so" "${2}"
+            sed -i "s/\x00ion_custom_ioctl\x00/\x00ion_compat_ioctl\x00/" "${2}"
+            ;;
         vendor/lib/libnvram.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
