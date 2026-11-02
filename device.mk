@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libdpframework_compat \
+    libion_mtk_compat \
     libmtkcam_grallocutils
 
 PRODUCT_COPY_FILES += \
