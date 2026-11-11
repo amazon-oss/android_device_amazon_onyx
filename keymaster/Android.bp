@@ -1,0 +1,23 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "android.hardware.keymaster@3.0-service.onyx",
+    init_rc: ["android.hardware.keymaster@3.0-service.onyx.rc"],
+    relative_install_path: "hw",
+    vendor: true,
+    compile_multilib: "32",
+    srcs: ["service.cpp"],
+    shared_libs: [
+        "android.hardware.keymaster@3.0",
+        "libbase",
+        "libcutils",
+        "libdl",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+    ],
+}
