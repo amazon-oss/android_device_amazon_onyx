@@ -9,6 +9,9 @@ function blob_fixup() {
         vendor/bin/rpmb_svc)
             sed -i "s|/dev/block/mmcblk0rpmb|/dev/mmcblk0rpmb\x00\x00\x00\x00\x00\x00|" "${2}"
             ;;
+        vendor/lib/libnvram.so)
+            "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
+            ;;
     esac
 }
 
