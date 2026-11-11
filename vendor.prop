@@ -1,0 +1,6 @@
+# USB
+ro.vendor.usb.pid.adb=0x0588
+ro.vendor.usb.pid.mtp=0x0581
+ro.vendor.usb.pid.mtp.adb=0x0582
+ro.vendor.usb.pid.ptp=0x0583
+ro.vendor.usb.pid.ptp.adb=0x0584
