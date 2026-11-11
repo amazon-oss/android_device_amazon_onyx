@@ -9,7 +9,8 @@ PRODUCT_AAPT_PREF_CONFIG := tvdpi
 
 # Rootdir
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.mt8168:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt8168
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt8168:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt8168 \
+    $(LOCAL_PATH)/rootdir/etc/fstab.mt8168:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt8168
 
 # Screen
 TARGET_SCREEN_HEIGHT := 1280
