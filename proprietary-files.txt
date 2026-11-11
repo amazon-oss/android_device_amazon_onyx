@@ -287,6 +287,9 @@ vendor/lib/libjpeg-alpha-oal_vendor.so|f63e5d424ad604bfeb00e9d5353a255419cf0a88
 vendor/lib/libjpeg-alpha_vendor.so|f668d5bcc6e5c0be468870827b88a1280a6607e9
 vendor/lib/libm4u.so|5d205ca43892b5953e5432017436629d3fb81365
 
+# Connsys
+vendor/firmware/WMT_SOC.cfg
+
 # DRM
 vendor/lib/lib_uree_mtk_modular_drm.so
 vendor/lib/liboemcrypto.so
@@ -330,3 +333,7 @@ vendor/firmware/focaltech_ts_fw_Ofilm.bin
 vendor/firmware/focaltech_ts_fw_TG.bin
 vendor/firmware/focaltech_ts_fw_Wally.bin
 vendor/firmware/goodix_firmware.bin
+
+# Wi-Fi
+vendor/bin/wlan_assistant
+vendor/etc/init/wlan_assistant.rc
