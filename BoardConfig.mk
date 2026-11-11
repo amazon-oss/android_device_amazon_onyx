@@ -8,6 +8,9 @@ DEVICE_PATH := device/amazon/onyx
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := onyx
 
+# Display
+TARGET_SCREEN_DENSITY := 213
+
 # Kernel
 TARGET_KERNEL_ADDITIONAL_CONFIG := onyx.config
 
