@@ -20,6 +20,12 @@ vendor/lib/libnvram.so
 vendor/lib/libnvram_daemon_callback.so
 vendor/lib/libnvram_platform.so
 
+# Sensors
+vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
+vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
+vendor/lib/hw/sensors.mt8168.so
+vendor/lib/libksensor.so
+
 # TEE
 vendor/bin/rpmb_svc
 vendor/etc/init/rpmb_svc.rc
