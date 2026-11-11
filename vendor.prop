@@ -1,6 +1,10 @@
 # Audio
 ro.hardware.audio.primary=amazon_wrapper_v28
 
+# Camera
+vendor.camera.mdp.cz.enable=0
+vendor.camera.mdp.dre.enable=0
+
 # USB
 ro.vendor.usb.pid.adb=0x0588
 ro.vendor.usb.pid.mtp=0x0581
