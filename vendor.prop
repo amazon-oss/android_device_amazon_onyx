@@ -1,3 +1,6 @@
+# Audio
+ro.hardware.audio.primary=amazon_wrapper_v28
+
 # USB
 ro.vendor.usb.pid.adb=0x0588
 ro.vendor.usb.pid.mtp=0x0581

@@ -1,3 +1,7 @@
+on post-fs-data
+    # Audio
+    mkdir /data/vendor/amzn_audio 0770 audioserver audio
+
 on post-fs-data && property:ro.boot.mnt_keys_rw_opts=ro
     # Keys
     mkdir /mnt/vendor/keys 0751 root system
