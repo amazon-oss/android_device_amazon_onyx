@@ -56,6 +56,11 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service.onyx \
     libkeymaster_messages.vendor
 
+# Power
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.power@2.0-service.stub \
+    vendor.mediatek.hardware.power@2.0.vendor
+
 # Rootdir
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt8168:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt8168 \
@@ -86,7 +91,8 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/mediatek
 
 # Inherit from mt8168-common
 $(call inherit-product, device/amazon/mt8168-common/mt8168.mk)
