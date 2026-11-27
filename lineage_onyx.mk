@@ -18,3 +18,8 @@ PRODUCT_DEVICE := onyx
 PRODUCT_MANUFACTURER := Amazon
 PRODUCT_BRAND := Amazon
 PRODUCT_MODEL := Fire HD 8 (10th Generation)
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="onyx-user 9 PS7331.4463N 0031575863040 amz-p,release-keys"
+
+BUILD_FINGERPRINT := Amazon/onyx/onyx:9/PS7331.4463N/0031575863040:user/amz-p,release-keys
