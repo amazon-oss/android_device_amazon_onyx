@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<device name="Android">
+    <item name="screen.on">71.53</item>
+    <item name="screen.full">479.18</item>
+    <item name="bluetooth.active">39.31</item>
+    <item name="bluetooth.on">3.30</item>
+    <item name="wifi.on">2.1</item>
+    <item name="wifi.active">254.23</item>
+    <item name="wifi.scan">21.81</item>
+    <item name="audio">24.75</item>
+    <item name="video">79.31</item>
+    <item name="camera.avg">121.57</item>
+    <array name="cpu.clusters.cores">
+        <value>4</value>
+    </array>
+    <array name="cpu.core_speeds.cluster0">
+        <value>850000</value>
+        <value>918000</value>
+        <value>987000</value>
+        <value>1056000</value>
+        <value>1125000</value>
+        <value>1216000</value>
+        <value>1308000</value>
+        <value>1400000</value>
+        <value>1466000</value>
+        <value>1533000</value>
+        <value>1633000</value>
+        <value>1700000</value>
+        <value>1767000</value>
+        <value>1834000</value>
+        <value>1917000</value>
+        <value>2001000</value>
+    </array>
+    <array name="cpu.core_power.cluster0">
+        <value>40.16</value>
+        <value>41.56</value>
+        <value>43.20</value>
+        <value>44.99</value>
+        <value>48.315</value>
+        <value>52.36</value>
+        <value>55.84</value>
+        <value>42.07</value>
+        <value>46.57</value>
+        <value>51.45</value>
+        <value>58.17</value>
+        <value>63.16</value>
+        <value>69.91</value>
+        <value>76.10</value>
+        <value>84.09</value>
+        <value>88.51</value>
+    </array>
+    <item name="cpu.suspend">2.96</item>
+    <item name="cpu.idle">27.01</item>
+    <item name="battery.capacity">4850</item>
+</device>
