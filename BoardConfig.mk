@@ -5,6 +5,11 @@
 
 DEVICE_PATH := device/amazon/onyx
 
+# Boot Image
+BOARD_BOOTIMG_HEADER_VERSION := 1
+
+BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := onyx
 
