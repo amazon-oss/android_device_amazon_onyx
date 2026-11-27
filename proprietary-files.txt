@@ -3,3 +3,7 @@
 # Keys
 vendor/etc/fstab.mount_keys.ro
 vendor/etc/fstab.mount_keys.rw
+
+# TEE
+vendor/bin/rpmb_svc
+vendor/etc/init/rpmb_svc.rc
