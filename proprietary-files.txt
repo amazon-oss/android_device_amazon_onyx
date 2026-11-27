@@ -162,6 +162,16 @@ vendor/lib/libmtkshifter_vendor.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/vendor.mediatek.hardware.power@2.0.so
 
+# Dolby
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/lib/libdapparamstorage.so
+vendor/lib/libdlbdsservice.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+
 # DRM
 vendor/lib/lib_uree_mtk_modular_drm.so
 vendor/lib/liboemcrypto.so

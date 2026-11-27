@@ -21,6 +21,9 @@ function blob_fixup() {
         vendor/lib/libnvram.so)
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
+        vendor/lib/soundfx/libswdap.so)
+            "${PATCHELF}" --add-needed "libswdap_shim.so" "${2}"
+            ;;
     esac
 }
 
