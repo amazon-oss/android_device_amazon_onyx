@@ -326,3 +326,12 @@ vendor/lib/libksensor.so
 # TEE
 vendor/bin/rpmb_svc
 vendor/etc/init/rpmb_svc.rc
+
+# Touchscreen
+vendor/firmware/focaltech_ts_fw_New_Wally.bin
+vendor/firmware/focaltech_ts_fw_New_Wally_FX.bin
+vendor/firmware/focaltech_ts_fw_New_Wally_RJ.bin
+vendor/firmware/focaltech_ts_fw_Ofilm.bin
+vendor/firmware/focaltech_ts_fw_TG.bin
+vendor/firmware/focaltech_ts_fw_Wally.bin
+vendor/firmware/goodix_firmware.bin
