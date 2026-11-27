@@ -56,6 +56,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service.onyx \
     libkeymaster_messages.vendor
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayOnyx
+
 # Power
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.power@2.0-service.stub \
