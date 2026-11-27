@@ -11,6 +11,15 @@ vendor/lib/hw/keystore.mt8168.so
 vendor/etc/fstab.mount_keys.ro
 vendor/etc/fstab.mount_keys.rw
 
+# NVRAM
+vendor/bin/nvram_daemon
+vendor/etc/init/nvram_daemon.rc
+vendor/lib/libcustom_nvram.so
+vendor/lib/libfile_op.so
+vendor/lib/libnvram.so
+vendor/lib/libnvram_daemon_callback.so
+vendor/lib/libnvram_platform.so
+
 # TEE
 vendor/bin/rpmb_svc
 vendor/etc/init/rpmb_svc.rc
