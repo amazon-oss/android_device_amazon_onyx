@@ -5,6 +5,9 @@
 
 DEVICE_PATH := device/amazon/onyx
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := onyx
+
 # Inherit from mt8168-common
 include device/amazon/mt8168-common/BoardConfigCommon.mk
 
