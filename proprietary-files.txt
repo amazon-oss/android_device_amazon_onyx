@@ -1,5 +1,8 @@
 # All blobs are extracted from onyx-user 9 PS7331.4463N 0031575863040 amz-p,release-keys unless pinned
 
+# Keymaster
+vendor/lib/hw/keystore.mt8168.so
+
 # Keys
 vendor/etc/fstab.mount_keys.ro
 vendor/etc/fstab.mount_keys.rw
