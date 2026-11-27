@@ -327,6 +327,11 @@ vendor/lib/libksensor.so
 vendor/bin/rpmb_svc
 vendor/etc/init/rpmb_svc.rc
 
+# Thermal
+vendor/etc/.tp/thermal.conf
+vendor/etc/.tp/thermal.policy.conf
+vendor/etc/.tp/thermal.wpc.policy.conf
+
 # Touchscreen
 vendor/firmware/focaltech_ts_fw_New_Wally.bin
 vendor/firmware/focaltech_ts_fw_New_Wally_FX.bin
