@@ -58,7 +58,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayOnyx
+    FrameworksResOverlayOnyx \
+    WifiResOverlayOnyx
 
 # Power
 PRODUCT_PACKAGES += \
